@@ -9,7 +9,7 @@ db.planets.insertMany([
     numberOfMoons: 0,
     lengthOfAYear: "88 days",
     mass: "0.055 x Earth",
-    image: "./images/mercury.png"
+    image: "/images/mercury.png"
   },
   {
     name: "Venus",
@@ -18,7 +18,7 @@ db.planets.insertMany([
     numberOfMoons: 0,
     lengthOfAYear: "225 days",
     mass: "0.815 x Earth",
-    image: "./images/venus.png"
+    image: "/images/venus.png"
   },
   {
     name: "Earth",
@@ -27,7 +27,7 @@ db.planets.insertMany([
     numberOfMoons: 1,
     lengthOfAYear: "365 days",
     mass: "1 x Earth",
-    image: "./images/earth.png"
+    image: "/images/earth.png"
   },
   {
     name: "Mars",
@@ -36,7 +36,7 @@ db.planets.insertMany([
     numberOfMoons: 2,
     lengthOfAYear: "687 days",
     mass: "0.107 x Earth",
-    image: "./images/mars.png"
+    image: "/images/mars.png"
   },
   {
     name: "Jupiter",
@@ -45,7 +45,7 @@ db.planets.insertMany([
     numberOfMoons: 79,
     lengthOfAYear: "Almost 12 Earth years",
     mass: "317.83 x Earth",
-    image: "./images/jupiter.png"
+    image: "/images/jupiter.png"
   },
   {
     name: "Saturn",
@@ -54,7 +54,7 @@ db.planets.insertMany([
     numberOfMoons: 56,
     lengthOfAYear: "29.5 Earth years",
     mass: "95.16 x Earth",
-    image: "./images/saturn.png"
+    image: "/images/saturn.png"
   },
   {
     name: "Uranus",
@@ -63,7 +63,7 @@ db.planets.insertMany([
     numberOfMoons: 21,
     lengthOfAYear: "84 Earth years",
     mass: "14.536 x Earth",
-    image: "./images/uranus.png"
+    image: "/images/uranus.png"
   },
   {
     name: "Neptune",
@@ -72,6 +72,6 @@ db.planets.insertMany([
     numberOfMoons: 13,
     lengthOfAYear: "About 165 Earth years.",
     mass: "17.15 x Earth",
-    image: "./images/neptune.png"
+    image: "/images/neptune.png"
   }
 ]);
