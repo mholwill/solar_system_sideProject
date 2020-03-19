@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <h2 v-for="planet in planets">{{planet.name}}</h2>
+    <!-- <h2 v-for="planet in planets">{{planet.name}}</h2> -->
   </div>
 </template>
 
