@@ -3,7 +3,7 @@ db.dropDatabase();
 
 db.planets.insertMany([
   {
-    planet: "Mercury",
+    name: "Mercury",
     diameter: "4,879 km",
     distantFromSun: "57.91 million km",
     numberOfMoons: 0,
@@ -11,7 +11,7 @@ db.planets.insertMany([
     mass: "0.055 x Earth"
   },
   {
-    planet: "Venus",
+    name: "Venus",
     diameter: "12,100 km",
     distantFromSun: '108.2 million km',
     numberOfMoons: 0,
@@ -19,7 +19,7 @@ db.planets.insertMany([
     mass: "0.815 x Earth"
   },
   {
-    planet: "Earth",
+    name: "Earth",
     diameter: "12,755 km",
     distantFromSun: "149.6 million km",
     numberOfMoons: 1,
@@ -27,7 +27,7 @@ db.planets.insertMany([
     mass: "1 x Earth"
   },
   {
-    planet: "Mars",
+    name: "Mars",
     diameter: "6,786 km",
     distantFromSun: "227.9 million km",
     numberOfMoons: 2,
@@ -35,15 +35,15 @@ db.planets.insertMany([
     mass: "0.107 x Earth"
   },
   {
-    planet: "Jupiter",
+    name: "Jupiter",
     diameter: "142,800 km",
     distantFromSun: "778.5 million km",
-    numberOfMoons: 63,
+    numberOfMoons: 79,
     lengthOfAYear: "Almost 12 Earth years",
     mass: "317.83 x Earth"
   },
   {
-    planet: "Saturn",
+    name: "Saturn",
     diameter: "120,537 km",
     distantFromSun: "1.435 billion km",
     numberOfMoons: 56,
@@ -51,7 +51,7 @@ db.planets.insertMany([
     mass: "95.16 x Earth"
   },
   {
-    planet: "Uranus",
+    name: "Uranus",
     diameter: "51,819 km",
     distantFromSun: "2.871 billion km",
     numberOfMoons: 21,
@@ -59,7 +59,7 @@ db.planets.insertMany([
     mass: "14.536 x Earth"
   },
   {
-    planet: "Neptune",
+    name: "Neptune",
     diameter: "49,529 km",
     distantFromSun: "4.495 billion km",
     numberOfMoons: 13,
