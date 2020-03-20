@@ -31,10 +31,16 @@ export default {
   font-family: DJB Chalk It Up, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   font-size: 3em;
   color: white;
   margin-top: 60px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
 }
 
 

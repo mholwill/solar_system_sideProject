@@ -1,9 +1,9 @@
 <template lang="html">
   <div id="planets-container">
     <div id="planet-grid">
-      <img class="sun col-8" src="/images/theSun.png" alt="The Sun">
-      <img class="mercury" :src="planets[0].image"/>
-      <img class="venus" :src="planets[1].image"/>
+      <img class="sun " src="/images/theSun.png" alt="The Sun">
+      <img class="mercury " :src="planets[0].image"/>
+      <img class="venus " :src="planets[1].image"/>
       <img class="earth" :src="planets[2].image"/>
       <img class="mars" :src="planets[3].image"/>
       <img class="jupiter" :src="planets[4].image"/>
@@ -12,9 +12,9 @@
       <img class="neptune" :src="planets[7].image"/>
     </div>
 
-    <div class="planet-name">
+    <!-- <div class="planet-name">
       <h2 v-for="(planet, index) in planets">{{planet.name}}</h2>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -34,25 +34,12 @@ export default {
 
 <style lang="css" scoped>
 
-  #planets-container {
-    width: 100%;
+  #planet-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-column-gap: 1em;
   }
-
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid red;
-  }
-
-  .col-1 {width: 11.1%;}
-  .col-2 {width: 22.2%;}
-  .col-3 {width: 33.3%;}
-  .col-4 {width: 44.4%;}
-  .col-5 {width: 55.5%;}
-  .col-6 {width: 66.6%;}
-  .col-7 {width: 77.7%;}
-  .col-8 {width: 88.8%;}
-  .col-9 {width: 100%;}
 
   .planet-name {
 
@@ -96,7 +83,7 @@ export default {
   }
 
   .earth{
-    width: 35px;
+    width: 50px;
     transform: scale(1);
     transition-duration: 0.5s;
   }
@@ -107,7 +94,7 @@ export default {
   }
 
   .mars{
-    width: 35px;
+    width: 45px;
     transform: scale(1);
     transition-duration: 0.5s;
   }
@@ -130,7 +117,7 @@ export default {
 
 
   .saturn{
-    width: 200px;
+    width: 350px;
     transform: scale(1);
     transition-duration: 0.5s;
   }
