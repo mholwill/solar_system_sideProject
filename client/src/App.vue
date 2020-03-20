@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <h2>Solar System</h2>
-    <img class="sun" src="/images/theSun.png" alt="The Sun">
     <planets :planets="planets"/>
   </div>
 </template>
@@ -38,11 +37,5 @@ export default {
   margin-top: 60px;
 }
 
-  .sun {
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding-top: 0px;
-    width: 300px;
-  }
+
 </style>

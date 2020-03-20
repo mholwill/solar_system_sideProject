@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../images/blackboard.jpeg");
   height: 100vh;
